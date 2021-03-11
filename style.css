@@ -1,0 +1,41 @@
+/* ------ CSS Style Sheet - Image Manipulation Pixel Fire ------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*
+  background: linear-gradient(
+    to right,
+    rgb(10, 10, 10) 25%,
+    rgb(104, 31, 0),
+    rgb(167, 50, 0),
+    rgb(255, 77, 0),
+    rgb(255, 162, 31),
+    rgb(255, 248, 31),
+    rgb(255, 254, 225)
+  );
+  */
+  background: black;
+}
+body {
+  text-align: center;
+  margin-top: 50px;
+}
+#canvas1 {
+  border: 3px solid #fdb931;
+  border-top-color: #fedb37;
+  border-right-color: #9f7928;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 550px;
+  height: 713px;
+  filter: blur(3px) contrast(2);
+}
+h1 {
+  font-family: "Bangers", cursive; /* font-family: 'Rubik Mono One', sans-serif; | font-family: 'Bungee Inline', cursive; | font-family: 'Bangers', cursive;  */
+  color: rgb(167, 50, 0); /* #fedb37  */
+  text-shadow: 2px 3px 2px rgb(255, 162, 31);
+  font-size: 3.5rem;
+}
